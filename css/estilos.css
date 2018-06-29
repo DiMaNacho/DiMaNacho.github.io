@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Asap", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.vcenter {
+  align-items: center;
+}
+
+.hcenter {
+  justify-content: center;
+}
+
+.btn {
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.btn.btn-blue {
+  background-color: #49b9e6;
+}
+
+.main {
+  width: 100%;
+}
+
+.contenedor-fluido {
+  width: 100%;
+}
+
+.contenedor {
+  width: 1200px;
+  text-align: left;
+}
+
+.header {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  height: 60px;
+  z-index: 10;
+}
+
+.logo {
+  background: transparent url(../img/logo-isotipo.png) no-repeat 0 0;
+  text-decoration: none;
+  font-weight: 700;
+  font-style: italic;
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.26;
+  padding-left: 38px;
+}
+
+.logo .logo-logotipo {
+}
+
+.primer-bloque {
+  background: #179bd0 url(../img/bg.png) no-repeat;
+  background-size: cover;
+  height: 990px;
+  position: relative;
+}
+
+.primer-bloque .contenido-principal div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.primer-bloque .contenido-principal img {
+  z-index: 2;
+}
+
+.primer-bloque-footer {
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 132, 184, 0.5);
+}
+
+.segundo-bloque {
+  height: 490px;
+  background-color: #0084b8;
+}
